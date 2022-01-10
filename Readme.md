@@ -4,12 +4,6 @@ This project written in nodejs to serve data from Mongodb using aggregation.
 
 ## Libraries Used
 
-```bash
-Express.js -> 
-Joi.js -> Validating Request payload
-Mongoose -> Mongodb ORM
-Jest -> Testing framework
-```
 | Framework | Purpose | 
 | --------------- | --------------- | 
 | Express| API framework | 
