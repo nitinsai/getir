@@ -1,0 +1,28 @@
+{
+  "name": "getir",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node ./bin/www",
+    "test": "cross-env NODE_ENV=test jest --testTimeout=50000"
+  },
+  "dependencies": {
+    "cookie-parser": "~1.4.4",
+    "debug": "~2.6.9",
+    "express": "~4.16.1",
+    "http-errors": "~1.6.3",
+    "jade": "~1.11.0",
+    "joi": "^17.5.0",
+    "mongoose": "^6.1.6",
+    "morgan": "~1.9.1",
+    "validator": "^13.7.0"
+  },
+  "devDependencies": {
+    "cross-env": "^7.0.3",
+    "jest": "^27.4.7",
+    "supertest": "^6.1.6"
+  },
+  "engines": {
+    "node": "14.x"
+  }
+}
